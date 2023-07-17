@@ -1,11 +1,11 @@
 #include <stdio.h>
 /*
  * main - Entry point
- * Write a program that prints all possible different number
+ * Write a program that prints all possible different combinations of two digits
  * Return: Always 0 (success)
  */
 
-int main(void)
+int main(voiid)
 {
 	int ones = '0';
 	int tens = '0';
@@ -18,7 +18,7 @@ int main(void)
 			{
 				putchar(tens);
 				putchar(ones);
-				if (!(ones == '9' && tens =='8'))
+				if (!(ones == '9' && tens == '8'))
 				{
 					putchar(',');
 					putchar(' ');
