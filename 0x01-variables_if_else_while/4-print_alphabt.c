@@ -1,16 +1,17 @@
 #include <stdio.h>
-/*
- * main Write a program that prints alphabets in lowercase 
+/**
+ * main Write a program that prints alphabets in lowercase
  * Return: Always return 0 (success)
  */
 
 int main(void)
 {
 	char c;
+
 	c = 'a';
 	while
 	(c <= 'z') {
-		if((c != 'q' && c != 'e') && c <= 'z')
+		if ((c != 'q' && c != 'e') && c <= 'z')
 			putchar(c);
 				c++;
 	}
