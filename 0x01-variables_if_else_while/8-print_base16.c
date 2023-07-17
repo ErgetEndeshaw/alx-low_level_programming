@@ -10,8 +10,9 @@ int main(void)
 	char c;
 
 	int d;
+
 	c = 'a';
-	d = '0';
+	d = 0;
 	while
 		(d < 10) {
 			putchar(d + '0');
