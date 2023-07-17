@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point 
- * Write a program that prints the alphabet in lowercase, and then in uppercase    
+ * main - Entry point
+ * write a program that prints the alphabet in lowercase and uppercase
  * Return: Always 0 (success)
  *
  */
@@ -18,7 +18,7 @@ int main(void)
 			C++;
 		}
 	while
-		(C <= 'Z') {
+		(d <= 'Z') {
 			putchar (d);
 			d++;
 		}
