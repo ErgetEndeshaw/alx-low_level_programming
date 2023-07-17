@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Write a C program that prints a string
  * Return: Always 0 (success)
  */
