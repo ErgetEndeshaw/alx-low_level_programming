@@ -2,12 +2,12 @@
 /**
  * main - Entry point
  * Write a function that prints 10 times the alphabet, in lowercase
- * Return: Always 0 (success)
+ * Return: void
  */
 
 void print_alphabet_x10(void)
 {
-	char i,j;
+	char i, j;
 
 	for (i = 1; i <= 10; i++)
 	{
